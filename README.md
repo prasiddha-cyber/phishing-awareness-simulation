@@ -15,17 +15,7 @@ This project is a Laravel-based phishing awareness simulation platform designed 
 - MySQL Database
 - Blade Templates
 - Mailtrap / SMTP for sending emails
-
-## How It Works
-1. The administrator creates a phishing campaign.
-2. A phishing email containing a simulated login link is sent to the target user.
-3. The user clicks the link and enters their credentials.
-4. The system logs the attempt for awareness analysis.
-5. The user is redirected to the actual website.
-
-## Purpose
-This project is intended for **cybersecurity awareness training** and educational purposes only. It helps demonstrate how phishing attacks operate so users can learn how to identify and avoid them.
-
+  
 ## Project Structure
 
 app/Http/Controllers/
@@ -37,6 +27,16 @@ routes/
 
 resources/views/
 - login.blade.php
+
+## How It Works
+1. The administrator creates a phishing campaign.
+2. A phishing email containing a simulated login link is sent to the target user.
+3. The user clicks the link and enters their credentials.
+4. The system logs the attempt for awareness analysis.
+5. The user is redirected to the actual website.
+
+## Purpose
+This project is intended for **cybersecurity awareness training** and educational purposes only. It helps demonstrate how phishing attacks operate so users can learn how to identify and avoid them.
 
 ⚠️ Educational use only.
 
