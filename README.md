@@ -26,5 +26,17 @@ This project is a Laravel-based phishing awareness simulation platform designed 
 ## Purpose
 This project is intended for **cybersecurity awareness training** and educational purposes only. It helps demonstrate how phishing attacks operate so users can learn how to identify and avoid them.
 
+## Project Structure
+
+app/Http/Controllers/
+- CampaignController.php
+- PhishingController.php
+
+routes/
+- web.php
+
+resources/views/
+- login.blade.php
+
 ⚠️ Educational use only.
 
