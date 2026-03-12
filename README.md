@@ -27,6 +27,9 @@ routes/
 
 resources/views/
 - login.blade.php
+  
+README.md
+- Project documentation
 
 ## How It Works
 1. The administrator creates a phishing campaign.
